@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+
+.imagepara{
+    color: rgba(216, 20, 20, 0.85);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 3px;
+}
+
+/* customer home page paragraph text css  */
+.customerpara{
+    color: rgba(0,0,0,.85);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 3px;
+}
+
+/* customer home page paragraph heading css */
+.newd-border span {
+    color: #04b7af;
+    display: block;
+    font-size: 1.8rem;
+}

@@ -2,15 +2,13 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
-
 @Component({
-  selector: 'app-NarBarComponent',
+  selector: 'app-user-profile',
   standalone: true,
   imports: [CommonModule,RouterLink,RouterOutlet],
-  templateUrl: './NavBarCustomer.component.html',
-  styleUrl: './NavBarCustomer.component.css'
+  templateUrl: './user-profile.component.html',
+  styleUrl: './user-profile.component.css'
 })
-export class NarBarComponent {
-
+export class UserProfileComponent {
 
 }
