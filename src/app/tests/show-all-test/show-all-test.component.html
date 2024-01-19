@@ -1,0 +1,19 @@
+<div class="container">
+    <span><h2 style="margin-left: 380px;">Test Details</h2></span>
+    <table class="table table-bordered table-striped bg-primary text-light">
+        <thead>
+            <tr>
+                <th>Test Id</th>
+                <th>Test Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let t of test|async">
+                <td>{{t.testId}}</td>
+                <td>{{t.testName}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <a class=" border p-2" style="border-radius: 10px;margin-right: 10px; text-decoration: none; color: black;" href="addTest">Add Test</a>
+</div>

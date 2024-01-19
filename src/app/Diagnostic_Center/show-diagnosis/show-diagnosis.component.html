@@ -1,0 +1,20 @@
+<div class="container">
+    <span><h2 style="margin-left: 380px;">Diagnostic Center Details</h2></span>
+    <table class="table table-bordered table-striped bg-primary text-light">
+        <thead>
+            <tr>
+                <th>Test Id</th>
+                <th>Test Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let d of test|async">
+                <td>{{d.diagnoId}}</td>
+                <td>{{d.diagnoName}}</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <a class=" border p-2" style="border-radius: 10px;margin-right: 10px; text-decoration: none; color: black;" href="addDiagno">Add Diagnostic Centers</a>
+    
+</div>
