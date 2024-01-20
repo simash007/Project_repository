@@ -8,6 +8,11 @@ import { ShowAllTestComponent } from './tests/show-all-test/show-all-test.compon
 import { DiagnosisHomeComponent } from './Diagnostic_Center/diagnosis-home/diagnosis-home.component';
 import { AddDiagnosisComponent } from './Diagnostic_Center/add-diagnosis/add-diagnosis.component';
 import { ShowDiagnosisComponent } from './Diagnostic_Center/show-diagnosis/show-diagnosis.component';
+import { NavBarComponent } from './NavBarCustomer/NavBarCustomer';
+import { AppointmentComponent } from './appointment/appointment.component';
+import { AppointmentStatusComponent } from './appointment-status/appointment-status.component';
+import { HealthcareComponent } from './healthcare/healthcare.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 export const routes: Routes = [
     
@@ -18,10 +23,15 @@ export const routes: Routes = [
     {path:'addTest',component:AddTestComponent},
     {path:'showTest',component:ShowAllTestComponent},
     {path:'diagnoHome',component:DiagnosisHomeComponent},
-
-    
     {path:'addDiagno',component:AddDiagnosisComponent},
-    {path:'showDiagno',component:ShowDiagnosisComponent}
+    {path:'showDiagno',component:ShowDiagnosisComponent},
+    {path:'navBar', component:NavBarComponent},
+    {path:'appointment', component:AppointmentComponent},
+    {path:'appointment-status', component:AppointmentStatusComponent},
+    {path:'healthcare', component:HealthcareComponent},
+    {path:'userprofile', component:UserProfileComponent}
+
+   
     
 
 
